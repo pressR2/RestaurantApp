@@ -22,7 +22,6 @@ self.oninstall = (event) => {
                 'js/restaurant_info.js',
                 'https://unpkg.com/leaflet@1.3.1/dist/leaflet.css',
                 'https://unpkg.com/leaflet@1.3.1/dist/leaflet.js'
-                
             ]);
         })
     );
@@ -31,11 +30,8 @@ self.oninstall = (event) => {
 self.onfetch = (event) => {
     event.respondWith(
         caches.match(event.request).then((response) => {
-            if (response) { console.log('cached', response); return response; }
-            console.log('fetch');
+            if (response) return response;
             return fetch(event.request);
         })
     );
 };
-
-console.log(self);
