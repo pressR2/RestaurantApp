@@ -18,9 +18,10 @@ static get DATABASE_URL() {
   }
 ```
 Replace `<your MAPBOX API KEY HERE>` inside of `main.js` and `restaurant_info.js` with your key.
+## Source
+Initial code by Udacity [link](https://github.com/udacity/mws-restaurant-stage-1).
 ## Dependencies
 [leaflet](https://leafletjs.com/)
-
 [MapBox](https://www.mapbox.com/)
 
 
