@@ -428,6 +428,10 @@ header .skip-link:focus {
    font-size: 12pt;
   }
 
+  #restaurants-list li .reviewHeader p {
+    margin-top: 5px;
+  }
+
   #reviews-list li .rating {
     padding: 5px 16px;
     font-size: 12pt;
@@ -451,6 +455,6 @@ header .skip-link:focus {
 
 @media screen and (min-width: 1020px) {
   #restaurants-list {
-    padding: 24px;
+    /* padding: 24px; */
   }
 }
