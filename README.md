@@ -3,6 +3,9 @@ The main goal of the project is to advance students' skills in responsive design
 ## About
 This website offers a search for restaurants. The main page allows to specify the location and cuisine type.
 Clicking on the **View Details** shows more information about the restaurant - the address, opening hours and reviews with the rating.
+| The main page   | View Details |
+|  :---:          |     :---:     |
+|![my screenshots](img/16.PNG ) | ![my screenshots](img/Untitled18.PNG )|
 ## How to deploy
 #### Requirements
 * This project needs a web server to run. For Chrome users here's example [Web Server for Chrome extension](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en).
