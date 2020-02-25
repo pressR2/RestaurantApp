@@ -5,7 +5,7 @@ This website offers a search for restaurants. The main page allows to specify th
 Clicking on the **View Details** shows more information about the restaurant - the address, opening hours and reviews with the rating.
 | The main page   | View Details |
 |  :---:          |     :---:     |
-|![my screenshots](img/Untitled16.PNG ) | ![my screenshots](img/Untitled18.PNG )|
+|![my screenshots](img/res15.PNG ) | ![my screenshots](img/res20.PNG )|
 ## How to deploy
 #### Requirements
 * This project needs a web server to run. For Chrome users here's example [Web Server for Chrome extension](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en).
